@@ -7,15 +7,55 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="w3schools.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container col-md-12">
+
+    <div class="container-fluid col-md-12">
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="logo.png">
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#!">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <span><h1 id = "playertitle">PLAYERS</h1></span>
+
+      <div class="row">      
+        <div class="col-sm-12">
+          <div class="d-flex justify-content-center">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary p-2 bg-dark">Power Forward</button>
+              <button type="button" class="btn btn-secondary p-2 bg-dark">Center</button>
+              <button type="button" class="btn btn-secondary p-2 bg-dark">Shooting Guard</button>
+              <button type="button" class="btn btn-secondary p-2 bg-dark">Small Forward</button>
+              <button type="button" class="btn btn-secondary p-2 bg-dark">Point Guard</button>
+            </div>
+            <!-- <div class="p-2 bg-dark">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div> -->
+          </div>
+        </div>
+        
+      </div>
+
       <!-- The Modal -->
     <div id="id01" class="w3-modal">
       <div class="w3-modal-content w3-card-4 w3-animate-opacity">
         <div class="w3-container">
-          <span onclick="document.getElementById('id01').style.display='none'"class="w3-button w3-display-topright">&times;</span><br><br>
+          <span onclick="document.getElementById('id01').style.display='none'"class="w3-button w3-display-topright" style="font-size: 52px;">&times;</span><br><br>
           <nav class="navbar navbar-inverse visible-xs">
             <div class="container-fluid">
               <div class="navbar-header">
@@ -124,7 +164,7 @@
     </div>
 
       <div class="row"> 
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="card">
             <div class="content">
               <h2>Kobe Bryant</h2>
@@ -135,7 +175,7 @@
             <img src="img1.png">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="card">
             <div class="content">
               <h2>Stephen Curry</h2>
@@ -146,7 +186,7 @@
             <img src="img2.png">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="card">
             <div class="content">
               <h2>James Harden</h2>
@@ -157,7 +197,7 @@
             <img src="img3.png">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="card">
             <div class="content">
               <h2>Lebron James</h2>
@@ -168,6 +208,16 @@
             <img src="img4.png">
           </div>
         </div>
+        
+
+        <!--footer-->
+        <div class="col-md-12"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <span>
+            <p>All Copyright and license information is copyrighted by James Karl Sia @ https://github.com/yanijames3</p><br><br>
+          </span>
+        </div>
+        <!--footer ends-->
+
       </div>
     </div>
   </body>
