@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@1,700&display=swap');
 
 *{
   margin: 0;
@@ -8,9 +9,9 @@
   color:white !important;
 }
 #playertitle{
-  margin-left: 25%;
+  margin-left: 30%;
   letter-spacing: 50px;
-  font-size: 7vw;
+  font-size: 5vw;
 }
 body{
   display:flex;
@@ -20,6 +21,9 @@ body{
 }
 a:hover{
   border-radius: 25px;
+}
+h3{
+  font-family: 'Quantico', sans-serif;
 }
 .card{
   position: relative;
@@ -43,6 +47,26 @@ a:hover{
   transition: 0.5s;
 }
 .card:hover img{
+  left: 95%;
+  height: 300px;
+}
+.card .image-jersey{
+  position: absolute;
+  height: 250px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  align-items: center;
+  justify-content: center;
+}
+.card .image-jersey h3{
+  margin-top: 80%;
+}
+.card .image-jersey h1{
+  margin-left: 20%;
+}
+.card:hover .image-jersey{
   left: 95%;
   height: 300px;
 }
