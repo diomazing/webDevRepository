@@ -17,7 +17,7 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
-  background: url('background.jpg');
+  background: url('../img/background.jpg');
 }
 a:hover{
   border-radius: 25px;
