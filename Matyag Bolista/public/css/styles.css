@@ -13,11 +13,15 @@
   letter-spacing: 50px;
   font-size: 5vw;
 }
+#coachestitle{
+  letter-spacing: 30px;
+  font-size: 5vw;
+}
 body{
   display:flex;
   justify-content: center;
   align-items: center;
-  background: url('../img/background.jpg');
+  background: url('../images/background.jpg');
 }
 a:hover{
   border-radius: 25px;
