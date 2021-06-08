@@ -26,9 +26,16 @@ Steps for integrating the website to VSCODE:
 
 Images and other assets are taken from open-sources and developers community.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35d9e77eb12fcbe45650bab0078dd9042ecbcba7
 BOSS KENSHIN RAY SAKALAM MGA CHOYENS!
 
 ![alt text](https://scontent.fceb2-2.fna.fbcdn.net/v/t1.6435-9/187792881_101279725494970_4363798196902485313_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=174925&_nc_ohc=mGpWTBSIAgMAX_yITvm&_nc_ht=scontent.fceb2-2.fna&oh=6bc32cdd2e79256fe299bd3a19f8b169&oe=60E317CF)
 
+<<<<<<< HEAD
 <bold>OH MILO SA MO</bold>
+=======
+<bold>OH MILO SA MO</bold>
+>>>>>>> 35d9e77eb12fcbe45650bab0078dd9042ecbcba7
